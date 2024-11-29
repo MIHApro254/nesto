@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Moje ime je: Mihael Prodanović</h1>
+        <hr>
+        <h3 title="Danas smo učili atribute u HTML elementima">Ovo je moj drug zadatak u HTML-u</h3>
+        <hr align="center" width="50%">
+        <p>Ovo je <mark>slika</mark> dimenzija: 300 piksela širine i 250 piksela visine:</p>
+        <img  src="coffie_br.jpg" alt="šalica" style="width: 300px; height: 250px;">
+        <hr> 
+        <p>Sljedeći linkovi će otvoriti moje tri najdraže web stranice <b> u novom tabu</b> </p>
+
+        <ul><li><a href="https://fipu.unipu.hr/" target="_blank">FIPU</a></li></ul>
+        <ul><li><a href="https://medium.com/" target="_blank">Medium</a></li></ul>
+        <ul><li><a href="https://f1.com/" target="_blank">Formula 1</a></li></ul>
+        <hr>
+        <table border="1">
+            <tr>
+            <th>Rb.</th>   
+            <th>Br. računa</th>
+            <th>Ukupno</th>
+            </tr>
+        <tr>
+            <td>1</td>
+            <td>08</td>
+            <td>10,00 kn</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>011</td>
+            <td>25,00 kn</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ukupno</td>
+            <td>35,00 kn</td>
+        </tr>
+            
+           </table>
+           <hr>
+    </body>
+</html>
